@@ -1,11 +1,11 @@
-class Pizza{
-    constructor(type, crust, toppings, quantity, delivery){
+qp/uestion {
+    constructor(type, symptoms){
         this.type = type;
         this.symptoms = symptoms;
        
     };
 
-toppinsPrice(){
+symptoms(){
          if(this.symptoms == "weaknes + lack/loss of vigour"){
              return Anemia;
          }else if (this.symptoms == "swollen abdomen"){
