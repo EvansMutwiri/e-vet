@@ -1,5 +1,5 @@
 
-
+/*  
 .navbar {
     background: #072707 !important;
   }
@@ -19,7 +19,7 @@
     transition: all 0.3s ease-in;
   }
   .navbar-text:hover {
-    color: #f7e705;
+    color: rgb(223,238,234);
     cursor: pointer;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
