@@ -1,57 +1,115 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/css/ask.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/EVET_logo.png"type="img/jpg">
+    <title>ASK A VET</title>
+    
 </head>
-<body>
-<div data-role="content" class="content scroll" style="bottom: 0rem;">
 
-		<div class="module__pictureCTA">
-			<div class="module__inner">
-				<div class="CTA">
-					<div class="CTA__inner">
-						<h1 class="title title1">Ask a Vet Questions Online <em>Now</em></h1>
-						<p class="claim">Verified pet experts standing by 24/7</p>
-						<p>Need advice but don’t have a veterinarian you can speak with? We’ve got you covered.</p>
-						<div class="form">
-							<div class="form-group e-message-el" id="Question">
-								<div class="e-char-counter counter" aria-hidden="true">500</div>
-								<div class="e-char-counte-aria-live counter" role="status" style="color: rgba(255,255,255,0.1);" aria-hidden="true" aria-live="polite">500 characters remaining!</div>
-								<textarea class="e-message-textarea" id="notorious_form_question" name="notorious_form_question" placeholder="Type your question here..." maxlength="500" aria-label="Question textarea input"></textarea>
-							</div>
-							
-							</div>
-							<div class="form-group">
-								<div class="form__categorySubmit">
-									<div class="category">
-										<label class="select select-normal">
-											<select name="notorious_form_specialty" id="notorious_form_specialty" aria-label="Select speciality">
-												<option value="-2">Select category</option>
-											<option value="2" title="Health">Health</option><option value="5" title="Behavior" &="" training="">Behavior &amp; Training</option><option value="7" title="Nutrition">Nutrition</option><option value="6" title="Care">Care</option><option value="18" title="Breeds">Breeds</option><option value="11" title="Holistic" health="" care="">Holistic Health Care</option><option value="12" title="Natural" pet="" products="">Natural Pet Products</option><option value="16" title="Product" recommendations="">Product Recommendations</option><option value="-1" title="Other">Other</option><option value="-1" title="Not sure">Not sure</option></select>
-										</label>
-									</div>
-									<div class="submit">
-										<div class="actionButtons">
-											<a href="" role="button" class="e-submit-button button button--CTA"><span>Submit question</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="infoBubble infoBubble--lightInfo">
-							<p>
-								Please visit your nearest emergency clinic right away if your pet is experiencing any of
-								<a id="showDisclaimerModal" href=""> these symptoms</a>
-							</p>
-						</div>
-						<a id="tip-modal" href="" class="info">Tips for a faster, better answer</a>
-					</div>
-				</div>
-			</div>
-		</div>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+          
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <a class="navbar-brand logo"href="#"><img src="/images/EVET_logo.png" alt="E-VET logo" width="100%" ></a>
+        <span class="navbar-brand navbar-text"> <a href="#"></a> E-VET</span>
+        <div class="collapse navbar-collapse" id="collapse_target">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html"> HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/ask.html">ASK A VET</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div data-role="content" class="content scroll" style="bottom: 0rem;">
+
+        <div class="module__pictureCTA">
+            <div class="module__inner">
+                <div class="CTA">
+                    <div class="CTA__inner">
+                        <h1 class="title title1">Ask a Vet Questions Online <em>Now</em></h1>
+                        <p class="claim">Verified pet experts standing by 24/7</p>
+                        <p>Need advice but don’t have a veterinarian you can speak with? We’ve got you covered.</p>
+                        <div class="form">
+                            
+
+                        </div>
+                        <div class="form-group">
+                            <div class="form__categorySubmit">
+                                <div class="category">
+                                    <label class="select select-normal">
+                                        <select name="notorious_form_specialty" id="notorious_form_specialty"
+                                            aria-label="Select speciality">
+                                            <option value="-2">Select category</option>
+                                            <option value="2" title="Health">Health</option>
+                                            <option value="5" title="Behavior" &="" training="">Behavior &amp; Training
+                                            </option>
+                                            <option value="7" title="Nutrition">Nutrition</option>
+                                            <option value="6" title="Care">Care</option>
+                                            <option value="18" title="Breeds">Breeds</option>
+                                            <option value="11" title="Holistic" health="" care="">Holistic Health Care
+                                            </option>
+                                            <option value="12" title="Natural" pet="" products="">Natural Pet Products
+                                            </option>
+                                            <option value="16" title="Product" recommendations="">Product
+                                                Recommendations</option>
+                                            <option value="-1" title="Other">Other</option>
+                                            <option value="-1" title="Not sure">Not sure</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="submit">
+                                    <div class="actionButtons">
+                                        <a href="" role="button" class="e-submit-button button button--CTA"><span>Submit
+                                                question</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group e-message-el" id="Question">
+                                <div class="e-char-counter counter" aria-hidden="true">500</div>
+                                <div class="e-char-counte-aria-live counter" role="status"
+                                    style="color: rgba(255,255,255,0.1);" aria-hidden="true" aria-live="polite">500
+                                    characters remaining!</div>
+                                <textarea class="e-message-textarea" id="notorious_form_question"
+                                    name="notorious_form_question" placeholder="Type your question here..."
+                                    maxlength="500" aria-label="Question textarea input"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infoBubble infoBubble--lightInfo">
+                        <p>
+                            Please visit your nearest emergency clinic right away if your pet is experiencing any of
+                            these symptoms
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/mark.js"></script>
 
 </body>
-</html>
 
+</html>
