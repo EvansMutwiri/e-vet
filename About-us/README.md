@@ -13,7 +13,7 @@ No any bugs.
 ## Technologies Used
 * HTML
 * CSS
-* Java Script
+* JavaScript
 ## Support and contact details
 
 * kdianarose903@gmail.com
