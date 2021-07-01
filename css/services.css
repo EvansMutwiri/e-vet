@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-md-4 {
+  /* border: 1px solid #072707; */
+  border-radius: 6px;
+  /* margin: 1em; */
+  /* padding: 0 2rem; */
+}
+.header {
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+  background-color: #072707;
+  color: #fff;
+  margin-top: 0;
+}
+
+.login {
+  background-color: #a7c4bc;
+  color: #072707;
+}
+
+.signup {
+  background-color: #395239;
+  color: #a7c4bc;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login,
+.signup {
+  margin: 1em;
+}
+
+.navbar {
+  background-color: #072707;
+  color: #fff;
+}
+
+.navbar a {
+  /* background-color: #072707; */
+  color: #fff;
+}
+
+.dropdown-menu {
+  background-color: #072707;
+}
+
+/* .img-hover-zoom--zoom-n-pan-v img {
+  transition: transform .5s ease-in-out;
+  transform: scale(1.4);
+  transform-origin: 0 0;
+} */
+
+.img-hover-zoom--zoom-n-pan-v:hover img {
+  transform: scale(1.25) translateY(-20%);
+}
+
+.testimonial {
+  position: relative;
+  border: solid 1px #a7c4bc;
+  padding: 45px 50px 25px 60px;
+  margin-top: 200px;
+  background-color: #072707;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.post-txt {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.quote-img {
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  width: 30px;
+  height: 30px;
+}
+
+.nice-img {
+  width: 20px;
+  height: 25px;
+  margin-bottom: 7px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 20px solid #072707;
+  margin-left: 85px;
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile-pic {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  left: 65px;
+  margin-top: 15px;
+}
+
+.profile-name {
+  position: absolute;
+  font-size: 22px;
+  margin-top: 60px;
+  left: 210px;
+  color: #072707;
+}
