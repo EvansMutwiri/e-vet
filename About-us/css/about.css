@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    font-family: 'Inter', sans-serif;
+    background-image: url("../images/pexels-tima-miroshnichenko-6234606.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 50px;
+    padding: 100px;
+    color: white;
+}
+.us{
+    text-align: center;
+    font-weight: 50px;
+    font-size: 30px;
+}
+#bb{
+    color: #072707;
+    font-size: 70px;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.moon{
+    padding: 10px;
+    box-shadow: 3px 3px 6px;
+    background-color: rgb(7,39,7);
+    font-style: oblique;
+    font-weight: 20px;
+}
+.cool{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+.water{
+    padding: 10px;
+    box-shadow: 3px 3px 6px;
+    background-color: rgb(7,39,7);
+    font-style: oblique;
+    font-weight: 20px;
+}
+.our{
+    background-color: rgb(7,39,7);
+    text-align: center;
+}
+.our p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+ul h3{
+    color: white;
+}
+ul p{
+    color: white;
+}
+.yy{
+    text-align: center;
+}
+.danger{
+    background-color: rgb(7,39,7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dance{
+    text-align: center;
+    background-color: rgb(7,39,7);
+
+    /* justify-content: space-evenly;
+    justify-content: center; */
+}
