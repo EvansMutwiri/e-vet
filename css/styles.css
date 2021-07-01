@@ -1,7 +1,10 @@
+ .body{
+     height: 20;
+ }
+ 
  .logo{
-     
-     margin-left: 500px;
-     
+    background-color:#072707 ;
+    margin-left:40px ;
  }
 .image{
     background-color: #072707;
@@ -24,7 +27,11 @@
   }
   .heading{
       text-align: center;
-      color: darkolivegreen;
+      color: ghostwhite;
+      background-color: #072707;
+      margin-bottom: 0px;
+      margin-top: 20px;
+    
       
   }
 
@@ -38,3 +45,9 @@
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .header{
+      background-color: #072707;
+  }
+
+ 
